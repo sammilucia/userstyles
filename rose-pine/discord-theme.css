@@ -1,0 +1,37 @@
+/* ==UserStyle==
+@name           discord.com/channels/
+@namespace      github.com/sammilucia/userstyles/rose-pine/discord
+@version        1.0.0
+@description    Discord Rose Pine
+@author         SammiLucia
+==/UserStyle== */
+
+@-moz-document url-prefix("https://discord.com/channels/") {
+    .theme-dark {
+        --background-base-low: #191724;
+        --background-base-lower: #191724;
+        --background-base-lowest: #1f1d2e;
+        --chat-background-default: #1f1d2e;
+        --background-mod-subtle: #191724;
+        --button-secondary-background: #191724;
+        --legacy-elevation-border: none;
+        --legacy-elevation-high: none;
+        --legacy-elevation-low: none;
+        --search-popout-date-picker-border: none;
+        --text-default: #e0def4;
+    }
+
+    :root {
+        --custom-virtual-currency-border-subtle: none;
+        --border-subtle: none;
+    }
+
+    .channelTextArea__74017,
+    .panels_c48ade,
+    .sidebarList_c48ade,
+    .searchBar__35e86,
+    .container__9293f,
+    .chat_f75fb0[data-has-border="true"] {
+        border: none;
+    }
+}

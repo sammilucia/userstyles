@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name           chatgpt.com/c/
+@namespace      github.com/sammilucia/userstyles/rose-pine/chatgpt
+@version        1.0.0
+@description    ChatGPT Rose Pine
+@author         SammiLucia
+==/UserStyle== */
+
+@-moz-document url-prefix("https://chatgpt.com/c/") {
+    .dark {
+        --bg-primary: #1f1d2e;
+        --bg-elevated-secondary: #191724;
+        --message-surface: #191724;
+        --gray-700: #191724;
+        --sidebar-surface-primary: #191724;
+        --text-quaternary: #e0def4;
+        --tw-prose-headings: #e0def4;
+        --tw-prose-body: #e0def4;
+    }
+
+    .dark\:bg-\[\#303030\]:is(.dark *) {
+        background-color: #191724;
+    }
+
+    .__menu-item:not(:disabled):not([data-disabled])[data-active],
+    .bg-token-main-surface-primary {
+        background-color: #1f1d2e;
+    }
+
+    body,
+    .prose :where(strong):not(:where([class~="not-prose"] *)),
+    .prose :where(code):not(:where([class~="not-prose"] *)),
+    :is(.light .dark, .dark) code[class*="language-"],
+    .text-token-text-primary {
+        color: #e0def4;
+    }
+
+    :is(.light .dark, .dark) .hljs-comment {
+        color: #908caa;
+    }
+
+    .markdown a,
+    :is(.light .dark, .dark) .hljs-literal,
+    :is(.light .dark, .dark) .hljs-string {
+        color: #5db9dd;
+    }
+
+    :is(.light .dark, .dark) .hljs-built_in {
+        color: #f6c177;
+    }
+
+    :is(.light .dark, .dark) .hljs-attr,
+    :is(.light .dark, .dark) .hljs-variable,
+    :is(.light .dark, .dark) .hljs-number,
+    :is(.light .dark, .dark) .hljs-title,
+    :is(.light .dark, .dark) .hljs-selector-id,
+    :is(.light .dark, .dark) .hljs-selector-class {
+        color: #eb6f92; 
+    }
+
+    :is(.light .dark, .dark) .hljs-attribute {
+        color: #c4a7e7;
+    }
+}
