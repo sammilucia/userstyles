@@ -1,0 +1,50 @@
+/* ==UserStyle==
+@name           duckduckgo.com
+@namespace      github.com/sammilucia/userstyles/rosepine/
+@version        1.0.0
+@description    DuckDuckGo
+@author         SammiLucia
+==/UserStyle== */
+
+@-moz-document domain("duckduckgo.com") {
+    body {
+        color: #e0def4;
+    }
+
+    h2 {
+        font-weight: 700;
+    }
+
+    * {
+        --theme-assist-bg-chat-system: #191724;
+        --sds-color-palette-gray-80: #191724;
+        --sds-color-palette-gray-20: #191724;
+        --sds-color-text-on-color: #191724;
+        --sds-color-text-03: #908caa;
+        --sds-color-text-link-02: #908caa;
+        --sds-color-text-link-02-hover: #908caa;
+        --sds-color-palette-gray-40: #908caa;
+        --sds-color-background-02: #191724;
+        --sds-color-background-utility-state-01: #191724;
+        --sds-color-background-utility: #191724;
+        --theme-col-bg-button-secondary: #6e6a86;
+        --theme-col-bg-button-secondary-hover: #524f67;
+        --theme-col-txt-search-bar: #e0def4;
+        --sds-color-text-01: #e0def4;
+        --theme-col-txt-card-body: #e0def4;
+    }
+    
+    .TccjmKV6RraCaCw5L9gd {
+        display: none;
+    }
+    
+    .T265XEcezvjUhK71U8pN {
+        background: var(--sds-color-text-on-color);
+        border: none;
+        box-shadow: none;
+    }
+    
+    .related-searches {
+        color: var(--sds-color-text-01);
+    }
+}

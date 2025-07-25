@@ -1,12 +1,12 @@
 /* ==UserStyle==
-@name           chatgpt.com/c/
-@namespace      github.com/sammilucia/userstyles/rose-pine/chatgpt
+@name           chatgpt.com/
+@namespace      github.com/sammilucia/stylus/chatgpt
 @version        1.0.0
 @description    ChatGPT Rose Pine
 @author         SammiLucia
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://chatgpt.com/c/") {
+@-moz-document url-prefix("https://chatgpt.com/") {
     .dark {
         --bg-primary: #1f1d2e;
         --bg-elevated-secondary: #191724;
@@ -58,7 +58,9 @@
         color: #eb6f92; 
     }
 
-    :is(.light .dark, .dark) .hljs-attribute {
-        color: #c4a7e7;
+    @layer utilities {
+        .dark\:bg-\[\#303030\]\!:is(.dark *) {
+            background-color: #403d52 !important;
+        }
     }
 }

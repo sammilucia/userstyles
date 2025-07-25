@@ -1,12 +1,16 @@
 /* ==UserStyle==
-@name           discord.com/channels/
-@namespace      github.com/sammilucia/userstyles/rose-pine/discord
+@name           discord.com/
+@namespace      github.com/sammilucia/stylus/discord
 @version        1.0.0
 @description    Discord Rose Pine
 @author         SammiLucia
 ==/UserStyle== */
-
-@-moz-document url-prefix("https://discord.com/channels/") {
+@-moz-document url-prefix("https://discord.com/") {
+    body {
+        zoom: 0.95;
+        font-family: 'source code pro';
+    }
+    
     .theme-dark {
         --background-base-low: #191724;
         --background-base-lower: #191724;
