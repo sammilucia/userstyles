@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           amazon.com
+@namespace      github.com/sammilucia/userstyles/amazon
+@version        1.0.0
+@description    Amazon highlight $ per count
+@author         SammiLucia
+==/UserStyle== */
+
+@-moz-document domain("amazon.com") {
+	/* unit price e.g. ($0.11 / Count) */
+    .a-price[data-a-size="mini"],
+    .a-price[data-a-size="b"]{
+		background:#ff0;
+		color: #000;
+	}
+}
