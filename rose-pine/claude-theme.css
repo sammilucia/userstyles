@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           claude.ai
+@namespace      github.com/sammilucia/userstyles/rose-pine
+@version        1.0.0
+@description    Rose Pine for Claude
+@author         SammiLucia
+==/UserStyle== */
+
+@-moz-document domain("claude.ai") {
+    [data-theme="claude"], [data-theme="claude"][data-mode="light"] {
+        --bg-000: 249deg 22% 12%;
+        --bg-100: 247deg 23% 15%;
+        --bg-200: 249deg 22% 12%;
+        --text-100: 248deg 15% 61%;
+        --text-200: 245deg 50% 91%;
+        --text-300: 248deg 15% 61%;
+        --text-400: 248deg 15% 61%;
+        --text-500: 245deg 50% 91%;
+        --accent-main-000: 267deg 57% 78%;
+        --accent-main-100: 267deg 57% 78%;
+        --tw-text-opacity: 
+        --oncolor-100: 249deg 22% 12%;
+        --always-white: 249deg 22% 12%;
+        --accent-secondary-100: 2deg 55% 83%;
+    }
+    
+    .text-\[\#D97757\] {
+        color: rgb(196 167 231);
+    }
+    
+    .bg-bg-300 {
+        background: none;
+    }
+}
