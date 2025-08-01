@@ -11,24 +11,76 @@
         --bg-000: 249deg 22% 12%;
         --bg-100: 247deg 23% 15%;
         --bg-200: 249deg 22% 12%;
-        --text-100: 248deg 15% 61%;
+        --bg-400: 248deg 25% 18%;
+        --text-100: 245deg 50% 91%;
         --text-200: 245deg 50% 91%;
         --text-300: 248deg 15% 61%;
         --text-400: 248deg 15% 61%;
         --text-500: 245deg 50% 91%;
         --accent-main-000: 267deg 57% 78%;
         --accent-main-100: 267deg 57% 78%;
-        --tw-text-opacity: 
-        --oncolor-100: 249deg 22% 12%;
         --always-white: 249deg 22% 12%;
         --accent-secondary-100: 2deg 55% 83%;
+        --danger-000: 343deg 76% 68%;
     }
     
-    .text-\[\#D97757\] {
+    .bg-text-200\/5,
+    .bg-bg-000\/50 {
+        background-color: hsl(var(--bg-000)/1.0);
+    }
+    
+    .text-\[\#D97757\],
+    .text-accent-brand{
         color: rgb(196 167 231);
     }
     
     .bg-bg-300 {
         background: none;
+    }
+    
+    .\!text-text-000 {
+        color:rgb(224, 222, 244) !important;
+    }
+    
+    .text-text-000 {
+        color: #908caa !important;
+    }
+    
+    button {
+        background-color: rgb(48, 45, 67) !important;
+    }
+    
+    .text-oncolor-100 {
+        color: #191724;
+    }
+    
+    .bg-white {
+        background-color: #26233a;
+    }
+    
+    *[style*="color: rgb(228, 86, 73)"] {
+        color: rgb(235, 111, 146) !important;
+    }
+    
+    *[style*="color: rgb(80, 161, 79)"] {
+        color: rgb(156, 207, 216) !important;
+    }
+    
+        
+    *[style*="color: rgb(64, 120, 242)"] {
+        color: rgb(49, 116, 143) !important;
+    }
+    
+        
+    *[style*="color: rgb(183, 107, 1)"] {
+        color: rgb(246, 193, 119) !important;
+    }
+            
+    *[style*="color: rgb(56, 58, 66)"] {
+        color: rgb(196, 167, 231) !important;
+    }
+    
+    *[style*="color: rgb(160, 161, 167)"] {
+        color: rgb(110, 106, 134) !important;
     }
 }
