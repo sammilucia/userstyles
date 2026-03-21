@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           chatgpt.com/
 @namespace      github.com/sammilucia/stylus/chatgpt
-@version        1.0.0
+@version        1.1.0
 @description    ChatGPT Rose Pine
 @author         SammiLucia
 ==/UserStyle== */
@@ -13,9 +13,12 @@
         --message-surface: #191724;
         --gray-700: #191724;
         --sidebar-surface-primary: #191724;
+        --text-tertiary: #e0def4;
         --text-quaternary: #e0def4;
         --tw-prose-headings: #e0def4;
         --tw-prose-body: #e0def4;
+        --text-primary: #e0def4;
+        --text-secondary: #908caa;
     }
 
     .dark\:bg-\[\#303030\]:is(.dark *) {
@@ -61,6 +64,10 @@
     @layer utilities {
         .dark\:bg-\[\#303030\]\!:is(.dark *) {
             background-color: #403d52 !important;
+        }
+        .mx-auto {
+            margin-left: 3%;
+            margin-right: 3%;
         }
     }
 }

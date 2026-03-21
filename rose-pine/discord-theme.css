@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           discord.com/
 @namespace      github.com/sammilucia/stylus/discord
-@version        1.0.0
+@version        1.1.0
 @description    Discord Rose Pine
 @author         SammiLucia
 ==/UserStyle== */
@@ -15,6 +15,8 @@
         --background-base-low: #191724;
         --background-base-lower: #191724;
         --background-base-lowest: #1f1d2e;
+        --background-surface-high: #1f1d2e;
+        --background-surface-higher: #1f1d2e;
         --chat-background-default: #1f1d2e;
         --background-mod-subtle: #191724;
         --button-secondary-background: #191724;
@@ -23,6 +25,11 @@
         --legacy-elevation-low: none;
         --search-popout-date-picker-border: none;
         --text-default: #e0def4;
+        --text-strong: #e0def4;
+        --channels-default: #6e6a86;
+        --control-secondary-background-default: #2a273f;
+        --background-feedback-notification: #eb6f92;
+        --white: #191724;
     }
 
     :root {

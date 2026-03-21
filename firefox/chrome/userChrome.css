@@ -1,0 +1,13 @@
+/* Let the pinned area actually show multiple rows */
+#vertical-pinned-tabs-container {
+	/* height for ~3 rows; adjust if your icon size differs */
+	block-size: auto !important;
+	overflow: visible !important;
+}
+
+/* Defang the internal arrowscrollbox */
+#vertical-pinned-tabs-container arrowscrollbox,
+#vertical-pinned-tabs-container arrowscrollbox::part(scrollbox) {
+	overflow: visible !important;
+	scrollbar-width: none !important;
+}
