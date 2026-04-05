@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name           Grok Rose Pine
+@namespace      grok.com
+@version        1.0.0
+@author         SammiLucia
+==/UserStyle== */
+
+@-moz-document domain("grok.com") {
+    .bg-surface-base {
+        background: #191724;
+    }
+
+    .bg-surface-l1\/85 {
+        background: #12101d;
+    }
+    
+    .bg-surface-l1 {
+        background: #1f1d2e;
+    }
+
+    .ring-border, .ring-border-l1 {
+        --tw-ring-color: none !important;
+    }
+    
+    .text-secondary,
+    .text-fg-secondary,
+    .text-tertiary.shrink-0,
+    .ProseMirror p.is-editor-empty:first-child:before,
+    .\!text-fg-secondary {
+        color: #908caa !important;
+    }
+    
+    a,
+    .text-primary,
+    .text-fg-primary,
+    .prose :where(p):not(:where([class~=not-prose],[class~=not-prose] *)),
+    .prose :where(li):not(:where([class~=not-prose],[class~=not-prose] *)),
+    .prose-strong\:opacity-100 :where(strong):not(:where([class~=not-prose],[class~=not-prose] *)) {
+        color: #e0def4;
+    }
+    
+    .before\:bg-button-filled:before {
+        background: #e0def4;;
+    }
+   
+    .bg-button-ghost-hover {
+        background-color: #26233a;
+    }
+    
+    .bg-popover,
+    .hover\:bg-button-ghost-hover:hover {
+        background-color: #403d52;
+    }
+    
+    .border-border, .border-border-l1 {
+        border-color: transparent;
+    }
+
+}
